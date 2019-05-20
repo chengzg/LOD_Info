@@ -1,0 +1,72 @@
+Remeshing 
+Simplication
+
+
+tree LOD, object LOD, terrain LOD
+SSELodGen
+TexGen
+DynDLLOD
+
+lighting LOD:
+texture LOD
+mesh LOD
+
+static LOD, 
+dynamic LOD,
+
+
+discrete LOD
+    There is no way to support a smooth transition between LOD levels at this level, although alpha blending or morphing can be used to avoid visual poppopping
+
+continuous  LOD
+
+
+
+Topology keeping algorithm: 
+    Manifold, realistic
+non-topology keeping algorithm
+    large amount reduced, looks differently
+
+Point Cloud VS Mesh
+
+
+polygon mesh processing
+Level of detail for 3D graphics
+
+Computing a representative:
+    Average/Median vertex position
+    Error quadrics
+
+After reduction, display side by side
+
+Repaire, welding consists of mergng vertices that are closer than a certain distance from each other
+
+Polgon Cruncher: realtime preview
+
+Polygon Optimization
+    1. Quality
+    2. Scalability
+    3. Control
+    4. Flexibility
+    5. Can it keep the UV texture as well as normal, color etc?
+
+Remeshing
+Occlusion Culling 
+Draw-Call Reduction
+    
+
+Polygon Cruncher
+    Command Line Tool to automate the tasks without human involvement
+    Progressive optimization 
+    Clean up, merge mesh, split mesh
+
+Instant Meshes
+    fewer quads
+    remesh quads
+
+Simmplygon
+    1. fewer triangles
+    2. LESS OBJECTS
+    3. Combining and creating new textures  
+    4. Optimizing animation
+
