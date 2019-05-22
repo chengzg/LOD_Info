@@ -1,4 +1,4 @@
-Remeshing 
+
 Simplication
 
 
@@ -70,3 +70,8 @@ Simmplygon
     3. Combining and creating new textures  
     4. Optimizing animation
 
+FPLBase: Low level game library
+
+Filament + IMGUI
+
+MeshDecimation using VTK
