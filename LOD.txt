@@ -33,9 +33,37 @@ Point Cloud VS Mesh
 polygon mesh processing
 Level of detail for 3D graphics
 
-Computing a representative:
+Vertex Clustering, Computing a representative:
     Average/Median vertex position
-    Error quadrics
+    Error quadrics(Preserve topology)
+
+Iterative Decimation
+
+
+
+Vertex clustering
+    fast but difficult to control simplified mesh 
+    topology changes, non-manifold meshes
+    global error bound, but often not close to optimum
+Iterative decimation with quadric error metrics
+    good trade-off between mesh-quality and speed 
+    explicit control over mesh topology
+    restricting normal deviation improves mesh quality
+    
+OpenMesh:
+    1. Block vertices from beeing touched by the decimater
+    2. Various mesh decimation module + error quadratic decimation
+    3. Mesh subdivision module
+    4. View Dependent progressive meshes
+    https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh
+    http://www.openmesh.org
+QSlim
+
+Remeshing: Mesh” → “remesh” → “pliant” →
+    [Optional] flag border as feature
+    [Optional] flag sharp edges as feature (dihedral angle) 
+    [Optional] estimate edge size (bounding box divisions) remesh (target edge length)
+    MeshLab
 
 After reduction, display side by side
 
