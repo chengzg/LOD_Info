@@ -103,3 +103,6 @@ FPLBase: Low level game library
 Filament + IMGUI
 
 MeshDecimation using VTK
+VCG library beind MeshLab, http://github.com/cnr-isti-vclab/vcglib/
+CGAL library
+
