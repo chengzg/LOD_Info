@@ -105,4 +105,7 @@ Filament + IMGUI
 MeshDecimation using VTK
 VCG library beind MeshLab, http://github.com/cnr-isti-vclab/vcglib/
 CGAL library
-
+Quad Mesh Simplification
+Localized Quadrilateral Coarsening
+Fast-Quadric-Mesh-Simplification
+Seam Aware Decimater, 2017, SIGGRAPH Asia 2017
