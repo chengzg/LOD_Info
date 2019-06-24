@@ -1,0 +1,7 @@
+POSA-MVC.pdf 
+If the user changes the model via the controller of one view, all other views dependent on this data should reflect the changes. The model therefore notifies all views whenever its data changes 
+
+
+The model component contains the functional core of the application. It encapsulates the appropriate data, and exports procedures that perform application-specific processing.
+
+Presentation-Abstraction-Control pattern

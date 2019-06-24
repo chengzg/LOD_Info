@@ -114,3 +114,8 @@ User-Guided simplification
 虚拟现实中LOD关键技术研究及实现, 边折叠算法
 空间四边形网格简化及优化算法的设计与实现
 保持视觉外观特征的网格简化 百度文库
+
+Simplifying sufaces with color and texture using quadric error metrics
+
+
+A New Cross-Platform Software for Quality Evaluation of Seismic Acquisition Data,  MVC
