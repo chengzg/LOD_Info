@@ -5,3 +5,12 @@ If the user changes the model via the controller of one view, all other views de
 The model component contains the functional core of the application. It encapsulates the appropriate data, and exports procedures that perform application-specific processing.
 
 Presentation-Abstraction-Control pattern
+
+
+https://github.com/qcad/qcad/tree/master/src
+矢量图形系统开发
+https://bbs.csdn.net/topics/70050490
+
+
+
+
