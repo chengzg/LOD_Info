@@ -1,4 +1,5 @@
 POSA-MVC.pdf 
+
 If the user changes the model via the controller of one view, all other views dependent on this data should reflect the changes. The model therefore notifies all views whenever its data changes 
 
 
@@ -10,7 +11,7 @@ Presentation-Abstraction-Control pattern
 https://github.com/qcad/qcad/tree/master/src
 矢量图形系统开发
 https://bbs.csdn.net/topics/70050490
-
+http://brlcad.org/wiki/Building_from_SVN
 
 
 
