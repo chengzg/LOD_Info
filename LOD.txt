@@ -118,4 +118,9 @@ User-Guided simplification
 Simplifying sufaces with color and texture using quadric error metrics
 
 
-A New Cross-Platform Software for Quality Evaluation of Seismic Acquisition Data,  MVC
+A New Cross-Platform Software for Quality Evaluation of Seismic Acquisition Data,  MVc
+
+PointNet, can used to retrieve the control point set. Especailly we decimate a single geometry which could lose the global information.
+https://blog.csdn.net/u014636245/article/details/82755966
+
+
