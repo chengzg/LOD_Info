@@ -1,0 +1,36 @@
+normal deviation to reduce the mesh
+vertex welding
+T-junction welding
+lock-boundary
+high-polygon details can be transferred to the low polygon with uv set
+optimization problem, many different ways to set the target, percent, distance, deviation, others
+remesh heal the geometry error automatically
+    Clipping plane to remove un-needed parts
+
+Compare Remesh Vs Simplification, usually way of doing LOD
+
+UV shell padding space blending the colors from one shell to another shell
+
+SIGGRAPH 2017: Unity asset creation workflow: https://www.youtube.com/watch?v=UBHm_CxQ7HM
+
+
+OGRE 3D 1.7 Beginner's Guide
+OGRE 3D 1.7 Application Development Cookbook
+T = normalize(dx/du, dy/du, dz/du)
+N = T X normalize(dx/dv, dy/dv, dz/dv)
+B = N x T
+Tangent space is just a local coordinate system.
+tangent space:切空间，就是反应模型空间坐标相对纹理左边的变换坡度
+tangent space normal mapping是什么？
+
+How are the current texture coordiates preservation of existing tools? 
+cage vs low-poly, what's the difference?
+
+Simplygon: 
+Silhouette vs hard edge, what's the difference for them?
+Welding Threshold, to weld vertices within this distrance, use small values
+
+Able to snap them together and display them side by side
+
+
+XNormal to bake high poly to low poly
