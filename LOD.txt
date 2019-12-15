@@ -1,16 +1,4 @@
 
-Simplication
-
-
-tree LOD, object LOD, terrain LOD
-SSELodGen
-TexGen
-DynDLLOD
-
-lighting LOD:
-texture LOD
-mesh LOD
-
 static LOD, 
 dynamic LOD,
 
@@ -30,7 +18,7 @@ non-topology keeping algorithm
 Point Cloud VS Mesh
 
 
-polygon mesh processing
+    polygon mesh processing
 Level of detail for 3D graphics
 
 Vertex Clustering, Computing a representative:
@@ -120,7 +108,28 @@ Simplifying sufaces with color and texture using quadric error metrics
 
 A New Cross-Platform Software for Quality Evaluation of Seismic Acquisition Data,  MVc
 
-PointNet, can used to retrieve the control point set. Especailly we decimate a single geometry which could lose the global information.
-https://blog.csdn.net/u014636245/article/details/82755966
+Bit Depths, Banding and Normals Mapping
+https://polycount.com/discussion/148303/of-bit-depths-banding-and-normal-map
 
+Tangent Normal Map Algorithm
+https://puppet-master.net/blog/docs/matiere-3d/advanced-topics/
+Two common problems on baking normals
+    The smooth groups
+    the round corner problem or double cornered problem without using cage
+https://www.youtube.com/watch?v=kGszEIT4Kww
 
+Normal map detial skewing:
+    https://www.artstation.com/typhen/blog/BDr6/this-is-normal-2-baking-normal-maps
+https://polycount.com/discussion/81154/understanding-averaged-normals-and-ray-projection-who-put-waviness-in-my-normal-map/p1
+
+Bent Normal:
+    1. Direct bake
+    2. SSAO post process
+    3. One of the biggest impacts Bent normals tend to have is to reduce the amount of light leaking that happends after a light build
+    4. Bent normals can also be used with Ambient Occlusion(AO) to improve Diffuse indirect lighting. IT does this by makeing the diffuse indirect light closer to match Global Illuminiation(GI) by using the Bent normals for indirect lighting instead of the Normals.
+    
+https://polycount.com/discussion/198363/recommended-software-for-baking-normals-ambient-occlusion-maps
+    There are various implementations of tangent space normal mapping in different applications and games engines. To make sure that your assets shaders correctly, remember to bake your normal map with the same tangent space that your renderer uses. If you're not sure which tangent space to use, Mikk/XNormal is a good choice, as that is what Unity, the Unreal engine and a variety of other applications use"
+
+http://wiki.polycount.com/wiki/Normal_Map_Technical_Details
+    Common Swizzle Coordinates: Right handedness, which coincides with OpenGL is indicated with a plus sign(eg. +Y), whereas Left handedness, which conincides with DirectX, is indictated with a negative sign(ex, -Y)
